@@ -18,9 +18,10 @@
  */
 
 /*
- * cmake -DCMAKE_BUILD_TYPE=Debug
+ * cmake -DCMAKE_BUILD_TYPE=Debug ..
  * make -j10
  * sudo openocd -f interface/picoprobe.cfg -f target/rp2040.cfg -c "program ./zx_pico_rom_fw.elf verify reset exit"
+ * sudo openocd -f interface/cmsis-dap.cfg -f target/rp2040.cfg -c "adapter speed 5000" -c "program zx_pico_rom_fw.elf verify reset exit"
  */
 
 #include <stdio.h>
