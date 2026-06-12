@@ -1,8 +1,8 @@
 # zx-spectrum-pico-rom
 
-## A Pico-based switchable ROM interface for the ZX Spectrum
+## A Pico-based switchable ROM interface for the 48K ZX Spectrum
 
-This is a ROM interface board for the ZX Spectrum. It presents a new,
+This is a ROM interface board for the 48K ZX Spectrum. It presents a new,
 selectable ROM image for the machine, replacing the 1982 BASIC one
 found in the IC on the Spectrum's PCB.
 
